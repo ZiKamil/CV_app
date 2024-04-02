@@ -1,0 +1,26 @@
+.wrapper {
+  width: 70%;
+  background-color: violet;
+  padding: 10px;
+}
+
+.description {
+  overflow-wrap: break-word;
+}
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid black;
+
+  &Row {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 5px;
+
+    &Value {
+      padding-left: 5px;
+      overflow-wrap: break-word;
+    }
+  }
+}
